@@ -167,21 +167,35 @@
     </div>
     <!-- jsdjdfdfd -->
 </section>
-<section class="react-activity-calendar">
+<section class="">
     <div class="heading">
         <h2>Github-Calender</h2>
         <span>My Stats</span>
     </div>
-    <div class="calendar">
+    <div id="github_sstats">
+        <div id="github-streak-stats">
+            <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=dilipsanapinb"/></a>
+        </div>
+        <div id="github-stats-card">
+           <a href="https://github.com/dilipsanapinb/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api?username=dilipsanapinb" alt=""></a>
+        </div>
+    </div>
+    <div id="language_div">
+        <div id="github-top-langs">
+            <a href="https://github.com/dilipsanapinb/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dilipsanapinb&layout=compact" alt=""></a>
+        </div>
+    </div>
+   
+    <div class="react-activity-calendar">
     </div>
     <script>
-        GitHubCalendar(".calendar", "dilipsanapinb");
+        GitHubCalendar(".react-activity-calendar", "dilipsanapinb");
     
         // or enable responsive functionality:
-        GitHubCalendar(".calendar", "dilipsanapinb", { responsive: true });
+        GitHubCalendar(".react-activity-calendar", "dilipsanapinb", { responsive: true });
     
         // Use a proxy
-        GitHubCalendar(".calendar", "dilipsanapinb", {
+        GitHubCalendar(".react-activity-calendar", "dilipsanapinb", {
            proxy (username) {
              return fetch(`https://your-proxy.com/github?user=${username}`)
            }
