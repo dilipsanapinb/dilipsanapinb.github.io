@@ -15,15 +15,3 @@ window.onscroll = () => {
 }
 
 
-//Github stats
-GitHubCalendar(".calendar", "dilipsanapinb");
-
-    // or enable responsive functionality:
-    GitHubCalendar(".calendar", "dilipsanapinb", { responsive: true });
-
-    // Use a proxy
-    GitHubCalendar(".calendar", "dilipsanapinb", {
-       proxy (username) {
-         return fetch(`https://github.com/dilipsanapinb/dilipsanap.github.io/github?user=${username}`)
-       }
-    })
