@@ -26,4 +26,4 @@ GitHubCalendar(".calendar", "dilipsanapinb");
        proxy (username) {
          return fetch(`https://github.com/dilipsanapinb/dilipsanap.github.io/github?user=${username}`)
        }
-    }).then(r => r.text())
+    })
