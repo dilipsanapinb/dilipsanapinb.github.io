@@ -270,12 +270,15 @@ section{
     height: 80%;
   }
 /* Github sstts */
-#github_sstats{
+#github-top-box{
   display: flex;
   flex-direction: row;
 }
-#language_div{
+#lag_div{
   text-align: center;
+}
+.react-activity-calendar{
+  margin: auto;
 }
 
 
@@ -290,7 +293,7 @@ section{
   .project-card {
     overflow: hidden;
     border-radius: 0.5rem;
-    border: 1px solid grey;
+    border: 0px solid grey;
   }
   .project-title{
     margin-bottom: 8px;
