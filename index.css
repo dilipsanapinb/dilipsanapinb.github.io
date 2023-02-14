@@ -114,11 +114,11 @@ section{
     gap: 1rem;
 }
 
-.home-img{
+.home-img_div{
     order:3;
 
 }
-.home-img img{
+.home-img_div img{
     width: 100%;
     border-radius: 0.5rem;
 
