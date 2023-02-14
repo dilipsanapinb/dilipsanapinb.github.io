@@ -284,18 +284,33 @@ section{
   .portfolio-content {
     display: grid;
     grid-template-columns: repeat(2, minmax(280px, auto));
-    gap: 1rem;
+    gap: 1.5rem;
     margin-top: 2rem;
   }
-  .portfolio-img {
+  .project-card {
     overflow: hidden;
     border-radius: 0.5rem;
+    border: 1px solid grey;
   }
-  .portfolio-img img {
+  .project-title{
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  .project-image{
+    margin-bottom: 8px;
+  }
+  .project-description{
+    margin-bottom: 8px;
+  }
+  .project-tech-stack{
+    margin-bottom: 8px;
+  }
+  .project-image img {
     width: 100%;
     display: block;
+    border-radius: 0.5rem;
   }
-  .portfolio-img img:hover {
+  .project-image img:hover {
     transform: scale(1.1);
     transition: 1s;
   }
