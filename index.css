@@ -7,6 +7,8 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
     font-family: "poppins",sans-serif;
 }
 :root{
@@ -411,7 +413,7 @@ align-items: center;
       display: initial;
       color: var(--text-color);
     }
-    header .navbar {
+    header #nav-menu {
       position: absolute;
       top: -500px;
       left: 0;
@@ -423,10 +425,10 @@ align-items: center;
       transition: 0.2s ease;
       text-align: center;
     }
-    .navbar.active {
+    #nav-menu.active {
       top: 100%;
     }
-    .navbar a {
+    #nav-menu a {
       padding: 1.5rem;
       display: block;
       background: var(--bg-color);
@@ -452,8 +454,9 @@ align-items: center;
       grid-column: 1/3;
       padding-left: 1.4rem;
     }
-    .home-img {
+    .home-img_div {
       order: initial;
+      /* text-align: center; */
     }
     .about-container {
       grid-template-columns: 1fr;
