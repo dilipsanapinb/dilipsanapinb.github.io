@@ -84,6 +84,13 @@
     flex-direction: row;
     justify-content: space-between;  */
   }
+  #resume-link-2{
+    display: inline-block;
+    background: var(--main-color);
+    color: #fff;
+    padding:0.7rem 1.3rem ;
+    border-radius: 0.5rem;
+  }
   #res_btn_arr{
     position: ;
     /* margin-top: 5px; */
