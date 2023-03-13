@@ -17,13 +17,13 @@ window.onscroll = () => {
 
 // Download Resume BUttons1
 
-let btn=document.getElementById("resume-button-1")
+let btn=document.getElementById("resume-link-1")
 btn.addEventListener('click',()=>{
-    window.open("Dilip_Sanap_Resume.pdf","_blank")
+    location.assign("Dilip_Sanap_Resume.pdf","_blank")
 })
 // let btn=document.getElementById("resume-button-1")
 
-let btn2=document.getElementById("resume-button-2")
+let btn2=document.getElementById("resume-link-2")
 btn2.addEventListener('click',()=>{
-    window.open("Dilip_Sanap_Resume.pdf","_blank")
+    location.assign("Dilip_Sanap_Resume.pdf","_blank")
 })
