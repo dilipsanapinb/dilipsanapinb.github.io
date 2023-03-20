@@ -497,11 +497,15 @@ align-items: center;
     .js-calendar-graph-svg{
       width:100%;
     }
-  }
-  @media (max-width: 340px) {
-    :root {
-      --big-font: 1.7rem;
-      --medium-font: 1.1rem;
+        .home-text{
+      text-align: center;
+      border: 0px solid;
+            width: 200%;
+      text-align: center;
+    }
+    .home-img_div{
+      width: 200%;
+      border: 0px solid;
     }
     .home-text span {
       font-size: 1rem;
@@ -510,6 +514,62 @@ align-items: center;
       font-size: 0.9rem;
       font-weight: 500;
     }
+    .information{
+      text-align: center;
+      border: 0px solid;
+      margin: auto;
+    }
+    #user-detail-name{
+      border: 0px solid;
+      text-align: center;
+    }
+   #github-streak-stats{
+      width: 100%;
+    }
+    #github-stats-card{
+      width: 100%;
+    }
+  }
+  @media (max-width: 340px) {
+    :root {
+      --big-font: 1.7rem;
+      --medium-font: 1.1rem;
+    }
+/*  */
+    .home-text{
+      text-align: center;
+      border: 0px solid;
+            width: 200%;
+      text-align: center;
+    }
+    .home-img_div{
+      width: 200%;
+      border: 0px solid;
+    }
+    .home-text span {
+      font-size: 1rem;
+    }
+    .home-text h2 {
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+    .information{
+      text-align: center;
+      border: 0px solid;
+      margin: auto;
+    }
+    #user-detail-name{
+      border: 0px solid;
+      text-align: center;
+    }
+   #github-streak-stats{
+      width: 100%;
+    }
+    #github-stats-card{
+      width: 100%;
+    }
+
+    /*  */
     .information .info-box span {
       font-size: 1rem;
     }
@@ -521,6 +581,12 @@ align-items: center;
     }
     .contact-button{
       margin-left: 25%;
+    }
+    #github-streak-stats{
+      width: 100%;
+    }
+    #github-stats-card{
+      width: 100%;
     }
   }
 
