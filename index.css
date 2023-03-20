@@ -388,6 +388,11 @@ align-items: center;
   .contact-button:hover {
     background: var(--hover);
   }
+  .github-section{
+    /* border: 5px solid; */
+    width: 100%;
+    display:inline-flexbox;
+  }
 
 
   /* Media query */
@@ -529,6 +534,9 @@ align-items: center;
     #github-stats-card{
       width: 100%;
     }
+    #cal-git{
+  width: 100%;
+}
   }
   @media (max-width: 340px) {
     :root {
@@ -588,6 +596,14 @@ align-items: center;
     #github-stats-card{
       width: 100%;
     }
+    #btns-links-project{
+      display: flex;
+      justify-content: space-between;
+    }
+      /* .github-section{
+    width: 100%;
+    display:block;
+  } */
   }
 
   #msg{
