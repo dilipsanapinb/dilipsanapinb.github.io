@@ -75,6 +75,9 @@
     z-index: 10001;
     display: none;
   }
+  .active {
+    color: green;
+  }
   #res_btn{
     background: var(--btn-color);
     color: var(--bg-color);
@@ -325,6 +328,9 @@ align-items: center;
   .project-tech-stack{
     margin-bottom: 8px;
   }
+  .project-tech-stack p{
+    font-weight:600;
+  }
   #btns-links-project {
     margin: 30px;
     display: flex;
@@ -393,6 +399,22 @@ align-items: center;
     width: 100%;
     display:inline-flexbox;
   }
+  .contact-form-info-parent{
+    border: 0px solid;display: flex; justify-content: center; align-items: center;
+  }
+  .information-in-contact-me{
+    border: 1px solid;text-align: center; border-bottom: 2px solid var(--main-color);
+        box-shadow: 0 2px 7px rgb(14 55 54 / 15%);    padding: 20px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    place-items: center;
+    margin-top: 2rem;
+    text-align: center
+  }
 
 
   /* Media query */
@@ -408,6 +430,13 @@ align-items: center;
     :root {
       --big-font: 2.7rem;
       --medium-font: 1.4rem;
+    }
+    .skills-content {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(200px, auto));
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
     }
   }
   @media (max-width: 768px) {
@@ -495,6 +524,9 @@ align-items: center;
     .contact-form form{
       width: 300px;
     }
+      .information-in-contact-me{
+    width: 300px;
+  }
     .contact-button{
       margin-left: 25%;
     }
