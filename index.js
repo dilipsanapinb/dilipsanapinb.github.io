@@ -19,11 +19,11 @@ window.onscroll = () => {
 
 let btn=document.getElementById("resume-button-1")
 btn.addEventListener('click',()=>{
-    window.open("Dilip_Sanap_Resume.pdf","_blank")
+    window.open("Dilip-Sanap-Resume.pdf","_blank")
 })
 // let btn=document.getElementById("resume-button-1")
 
 let btn2=document.getElementById("resume-button-2")
 btn2.addEventListener('click',()=>{
-    window.open("Dilip_Sanap_Resume.pdf","_blank")
+    window.open("Dilip-Sanap-Resume.pdf","_blank")
 })
