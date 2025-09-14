@@ -266,7 +266,7 @@ section {
 
 /* Experience Section */
 #experience {
-  background: var(--light-bg);
+  /* background: var(--light-bg); */
 }
 
 .experience-content {
